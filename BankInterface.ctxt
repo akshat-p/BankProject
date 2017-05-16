@@ -1,0 +1,20 @@
+#BlueJ class context
+comment0.params=index
+comment0.target=Account\ getAccounts(int)
+comment0.text=\r\n\ Gets\ The\ Account\ at\ the\ given\ Index\r\n
+comment1.params=acc
+comment1.target=void\ addAccount(Account)
+comment1.text=\r\n\ addAccount\:\ Add\ a\ account\ to\ bank.\r\n\ \r\n\ Precondition\:\ To\ add\ Account\ you\ need\ to\ provide\ (name,id,amount)\r\n\ Postcondition\:\ The\ account\ is\ added\ to\ Array\ of\ Accounts.\r\n
+comment2.params=id
+comment2.target=Account\ search(java.lang.String)
+comment2.text=\r\n\ Search\:\ Search\ a\ particular\ account\ in\ bank.\r\n\ Precondition\:\ id\ is\ given\ by\ the\ user\r\n\ Postcondition\:\ The\ account\ is\ searched\ and\ returned.\r\n\ \r\n
+comment3.params=id\ money
+comment3.target=void\ deposit(java.lang.String,\ Money)
+comment3.text=\r\n\ Deposit\:\ Deposit\ Money\ to\ a\ particular\ bank\ account.\r\n\ \r\n\ Precondition\:\ You\ need\ to\ provide\ id\ and\ the\ money\ amount\ you\ want\ to\ deposit\r\n\ Postcondition\:\ the\ amount\ in\ this\ Money\ object\ is\ added\ to\ the\ Money\ amount\ of\ a\ particular\ account.\r\n\ \r\n\ @param\ a\ id,\ the\ id\ of\ account\ in\ bank\r\n\ @param\ a\ Money,\ the\ Money\ amount\ to\ add\ to\ the\ calling\ object\ id.\r\n
+comment4.params=id\ money
+comment4.target=void\ withdraw(java.lang.String,\ Money)
+comment4.text=\r\n\ Withdraw\:\ Withdraw\ Money\ to\ a\ particular\ bank\ account.\r\n\ \r\n\ Precondition\:\ You\ need\ to\ provide\ id\ and\ the\ money\ amount\ you\ want\ to\ Withdraw\r\n\ Postcondition\:\ the\ amount\ in\ this\ Money\ object\ is\ subtracted\ from\ the\ Money\ amount\ of\ a\ particular\ account.\r\n\ \r\n\ @param\ a\ id,\ the\ id\ of\ account\ in\ bank\r\n\ @param\ a\ Money,\ the\ Money\ amount\ to\ subtract\ to\ the\ calling\ object\ id.\r\n
+comment5.params=
+comment5.target=java.lang.String\ toString()
+comment5.text=\r\n\ toString\:\ converts\ the\ bank\ to\ a\ String\ value.\r\n\ \r\n\ Precondition\:\ no\ precondition\r\n\ Postcondition\:\ returns\ the\ string\ value\ of\ bank\ name\ and\ Array\ of\ Accounts.\r\n
+numComments=6

@@ -1,0 +1,17 @@
+#BlueJ class context
+comment0.params=args
+comment0.target=void\ main(java.lang.String[])
+comment1.params=fileName
+comment1.target=Bank\ readFromFile(java.lang.String)
+comment1.text=\r\n\ readFromFile\:\ \ \ \ reads\ all\ accounts\ that\ are\ on\ the\ in_accounts\ text\ file\r\n\ Precondition\:\ \ \ \ the\ text\ file\ is\ in\ the\ same\ folder\ as\ the\ bluej\ project\r\n\ Postcondition\:\ \ \ myBank\ is\ returned\ with\ all\ the\ accounts\ added\ to\ it\ as\ account\ objects\r\n\ @param\ \ \ \ \ \ \ \ \ \ \ fileName\:\ name\ of\ file\ that\ is\ read\r\n\ @return\ \ \ \ \ \ \ \ \ \ myBank\:\ retuns\ the\ BankInterface\ with\ the\ accounts\ read\ added\ to\ it\r\n
+comment2.params=b\ id
+comment2.target=void\ menu(Bank,\ java.lang.String)
+comment3.params=bank
+comment3.target=void\ dialogBox(Bank)
+comment3.text=\r\n\ Method\ dialogBox\:\ \ \ \ pops\ up\ a\ dialog\ box\ in\ which\ the\ user\ has\ to\ enter\ their\ account\ id\ for\ the\ account\ to\ be\ printed\r\n\ Precondition\:\ \ \ \ \ \ \ \ bank\ has\ been\ created\ prior\ to\ the\ calling\ of\ this\ method\r\n\ @param\ \ \ \ \ \ \ \ \ \ \ \ \ \ \ bank\:\ BankInterface\ created\ in\ the\ main\ method\r\n
+comment4.params=user
+comment4.target=void\ writer(Account)
+comment5.params=
+comment5.target=void\ pause()
+comment5.text=\r\n\ Description\:\ A\ simple\ pause\ for\ the\ menu\ so\ the\ sue\ can\ see\ the\ results\ before\ the\ screen\ is\ cleared.\r\n
+numComments=6

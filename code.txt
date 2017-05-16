@@ -1,0 +1,128 @@
+
+
+
+
+
+import java.util.Scanner;
+import java.io.*;
+
+// Driver class for Bank project
+
+public class ATM
+{
+    static Bank b = new Bank("Chase");
+
+    public static void main(String[] args) {
+        String fileName = "in_accounts.txt";
+        
+        
+        
+        try {
+			b = readFromFile(fileName);
+		} catch (IOException e) {
+			System.out.println("Shit happen");
+		}
+
+    }
+
+    // public static void main(String args[] )
+    // { 
+    // String id;
+    // int withdrawD ,withdrawC;
+    // int depositD, depositC;
+    // Scanner s = new Scanner(System.in);
+    // while(true)
+    // {
+    // System.out.println("ATM \n");
+    // System.out.println("Choose 1 for Withdraw");
+    // System.out.println("Choose 2 for Deposit");
+    // System.out.println("Choose 3 for Check Balance");
+    // System.out.println("Choose 4 for EXIT");
+    // System.out.print("Choose the operation you want to perform:");
+    // int n = s.nextInt();
+    // switch(n)
+    // {
+    // case 1:
+    // System.out.print("Enter id number: ");
+    // id = s.nextLine();
+    // b.search(id);
+    // System.out.println("Enter Amount to be withdrawn\n");
+    // System.out.print("Dollars: ");
+    // withdrawD = s.nextInt();
+    // System.out.print("Cents: ");
+    // withdrawC = s.nextInt();
+    // Money m = new Money(withdrawD, withdrawC);
+    // Money withdraw =new Money(withdrawD*100 + withdrawC);
+
+    // if(m.getBalance().compareTo(withdraw) >= 0)
+    // {
+    // b.withdraw(id,m);
+    // System.out.println("Please collect your money");
+    // }
+    // else
+    // {
+    // System.out.println("Insufficient Balance");
+    // }
+    // System.out.println("");
+    // break;
+
+    // case 2:
+    // System.out.print("Enter id number: ");
+    // id = s.nextLine();
+    // b.search(id);
+    // System.out.println("Enter Amount to be withdrawn: ");
+    // System.out.print("Dollars: ");
+    // depositD = s.nextInt();
+    // System.out.print("Cents: ");
+    // depositC = s.nextInt();
+    // Money deposit = new Money(depositD*100 + depositC);
+    // b.deposit(id, deposit);
+    // System.out.println("Your Money has been successfully deposited");
+    // System.out.println("");
+    // break;
+
+    // case 3:
+    // System.out.print("Enter id number: ");
+    // id = s.nextLine();
+    // b.search(id);
+    // System.out.println("" + b.searchInfo(id));
+    // System.out.println("");
+    // break;
+
+    // case 4:
+    // System.exit(0);
+    // }
+    // }
+    // }
+    /*
+    /**
+     * readFromFile:    **** INSERT COMMENTS ****
+     * 
+     */
+    public static Bank readFromFile(String fileName) throws IOException
+    {
+        Scanner scan = new Scanner( new File(fileName) );
+        
+        
+      
+        //Creata a bank.
+    
+        //Bank myBank = new Bank(scan.nextLine());
+        Bank myBank = new Bank(scan.nextLine());
+        //Open afile for reading.
+        Scanner inputSource = new Scanner (new File(fileName));
+    
+        //while there are more tokens to read from the input source...
+        while (inputSource.hasNext() == false) {
+    
+            //Read one line of input from the file into an Account object
+            Account acct = InputManager.readOneAccountFrom (inputSource);
+        
+            //Store the account info in the bank.
+            myBank.addAccount(acct);
+        
+        } // end while
+    
+        return myBank;
+    } // end readFromFile
+} // end ATM

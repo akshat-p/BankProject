@@ -1,0 +1,20 @@
+#BlueJ class context
+comment0.params=theArray\ n
+comment0.target=java.util.ArrayList\ selectionSort(java.util.ArrayList,\ int)
+comment1.params=theArray\ size
+comment1.target=int\ indexOfLargest(java.lang.Comparable[],\ int)
+comment2.params=theArray\ n
+comment2.target=java.lang.Comparable[]\ bubbleSort(java.lang.Comparable[],\ int)
+comment3.params=theArray\ n
+comment3.target=void\ insertionSort(java.lang.Comparable[],\ int)
+comment4.params=theArray\ first\ mid\ last
+comment4.target=void\ merge(java.lang.Comparable[],\ int,\ int,\ int)
+comment5.params=theArray\ first\ last
+comment5.target=void\ mergesort(java.lang.Comparable[],\ int,\ int)
+comment6.params=theArray\ first\ last
+comment6.target=void\ choosePivot(java.lang.Comparable[],\ int,\ int)
+comment7.params=theArray\ first\ last
+comment7.target=int\ partition(java.lang.Comparable[],\ int,\ int)
+comment8.params=theArray\ first\ last
+comment8.target=void\ quickSort(java.lang.Comparable[],\ int,\ int)
+numComments=9

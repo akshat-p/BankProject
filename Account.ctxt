@@ -1,0 +1,27 @@
+#BlueJ class context
+comment0.params=name\ id\ amount
+comment0.target=Account(java.lang.String,\ java.lang.String,\ Money)
+comment0.text=\r\n\ Constructor\:\ initializes\ all\ attributes\ (i.e.\ name,\ id,\ amount)\r\n\ based\ on\ the\ given\ dollars\ and\ cents.\r\n\r\n\ @param\ name\ \ \ \ \ \ The\ name\ of\ the\ user\r\n\ @param\ id\ \ \ \ \ \ \ \ The\ ID\ of\ the\ user\r\n\ @param\ amount\ \ \ \ The\ account's\ balance\r\n
+comment1.params=
+comment1.target=java.lang.String\ getName()
+comment10.params=other
+comment10.target=boolean\ equals(Account)
+comment2.params=o
+comment2.target=int\ compareTo(java.lang.Object)
+comment3.params=
+comment3.target=Money\ getBalance()
+comment4.params=m
+comment4.target=void\ setBalance(Money)
+comment5.params=
+comment5.target=java.lang.String\ getID()
+comment6.params=user01\ amt
+comment6.target=void\ transfer(Account,\ Money)
+comment6.text=\r\n\ transfer\:\ transfers\ money\ from\ one\ user\ to\ another\r\n\ \r\n\ Precondition\:\ user01\ and\ amt\ are\ given\ by\ the\ user\r\n\ Postcondition\:\ the\ value\ of\ amt\ is\ added\ to\ the\ secondary\ user's\ account\ and\ subtracted\ from\ the\ primary\ user's\ account.\r\n\ \r\n\ @param\ user01\:\ the\ user\ who's\ account\ is\ being\ withdrawled\ from\r\n\ @param\ amt\:\ amount\ that\ is\ being\ transfered\r\n
+comment7.params=money
+comment7.target=void\ withdrawl(Money)
+comment8.params=money
+comment8.target=void\ deposit(Money)
+comment9.params=
+comment9.target=java.lang.String\ toString()
+comment9.text=\r\n\ toString\:\ converts\ the\ balance\ to\ a\ String\ value\ with\ the\ $\ and\ accurate\ amount\r\n\ \r\n\ Precondition\:\ no\ precondition\r\n\ Postcondition\:\ returns\ the\ string\ value\ of\ the\ user's\ current\ amount\ with\ proper\ signs\r\n
+numComments=11

@@ -1,0 +1,27 @@
+#BlueJ class context
+comment0.params=
+comment0.target=MoneyTest()
+comment0.text=\r\n\ Default\ constructor\ for\ test\ class\ MoneyTest\r\n
+comment1.params=
+comment1.target=void\ setUp()
+comment1.text=\r\n\ Sets\ up\ the\ test\ fixture.\r\n\r\n\ Called\ before\ every\ test\ case\ method.\r\n
+comment2.params=
+comment2.target=void\ tearDown()
+comment2.text=\r\n\ Tears\ down\ the\ test\ fixture.\r\n\r\n\ Called\ after\ every\ test\ case\ method.\r\n
+comment3.params=
+comment3.target=void\ testCreate()
+comment3.text=\r\n\ Test\ methods\ \r\n
+comment4.params=
+comment4.target=void\ testEquality()
+comment4.text=\ \ @Test\r\n\ \ \ \ public\ void\ testToString()\r\n\ \ \ \ {\r\n\ \ \ \ \ \ \ \ //\ First\ test\:\ cents\ is\ two\ digits\r\n\ \ \ \ \ \ \ \ Money\ amount\ \=\ new\ Money\ (7,\ 55);\r\n\ \ \ \ \ \ \ \ String\ actual\ \=\ amount.toString();\r\n\ \ \ \ \ \ \ \ String\ expected\ \=\ "$7.55";\r\n\ \ \ \ \ \ \ \ assertTrue("Error\ in\ testToString",\ actual.equals(expected));\r\n\ \ \ \ \ \ \ \ \r\n\ \ \ \ \ \ \ \ //\ Second\ test\:\ cents\ is\ one\ digit\r\n\ \ \ \ \ \ \ \ Money\ amount2\ \=\ new\ Money\ (7,\ 5);\r\n\ \ \ \ \ \ \ \ String\ actual2\ \=\ amount2.toString();\r\n\ \ \ \ \ \ \ \ String\ expected2\ \=\ "$7.05";\r\n\ \ \ \ \ \ \ \ assertTrue("Error\ in\ testToString",\ actual2.equals(expected2));\r\n}
+comment5.params=
+comment5.target=void\ testInequality()
+comment6.params=
+comment6.target=void\ testSimpleAdd()
+comment7.params=
+comment7.target=void\ testSimpleSub()
+comment8.params=
+comment8.target=void\ testComplexAdd()
+comment9.params=
+comment9.target=void\ testComplexSub()
+numComments=10
